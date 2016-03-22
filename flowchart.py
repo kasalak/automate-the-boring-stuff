@@ -1,4 +1,4 @@
-IsThereRain = []
+IsThereRain = ''
 while IsThereRain != 'no': #creates loop as long as answer is not 'no'
     print('Is it raining?')
     IsThereRain = input()

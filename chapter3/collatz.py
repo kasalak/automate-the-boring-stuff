@@ -7,9 +7,7 @@ def collatz(number):
 
 print("Please input a number: ")
 number = int(input())
-print(collatz(number))
-number = collatz(number)
-while collatz(number) > 1 :
+while collatz(number) > 1:
     number = collatz(number)
     print(number)
 if collatz(number) == 1:
